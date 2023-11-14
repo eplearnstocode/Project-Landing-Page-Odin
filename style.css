@@ -1,0 +1,33 @@
+/*body {
+    font-family: Roboto, monospace;
+}
+.section1 {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    align-items: column;
+    
+   
+}
+
+.logo {
+   display: flex;
+
+}
+.right-links {
+   display: flex;
+   align-items: flex-end;
+   gap: 10px;
+}
+
+
+li {
+    list-style-type: none;
+    
+}
+
+
+
