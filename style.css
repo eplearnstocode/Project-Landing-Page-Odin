@@ -26,10 +26,18 @@ header {
 
 .hero {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+/*please note that the img bit is not showing up on page and just started
+trying to get divs aligned and set up so i could start doing flex*/
+.left {
+
 }
 
+.right {
 
+}
 
 li {
     list-style-type: none;
