@@ -1,27 +1,34 @@
-/*body {
+body {
     font-family: Roboto, monospace;
 }
-.section1 {
+header {
     background-color: #1F2937;
     color: #E5E7EB;
 }
 
-.header {
-    display: flex;
-    align-items: column;
+.nav {
+    display: flex;   
+    justify-content: space-between;
     
-   
 }
 
 .logo {
-   display: flex;
+    display: flex;
+    justify-content: flex-start;
+}
 
-}
 .right-links {
-   display: flex;
-   align-items: flex-end;
-   gap: 10px;
+    display: flex;
+    margin-right: 50px;
+    gap: 20px;
+    
 }
+
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 li {
