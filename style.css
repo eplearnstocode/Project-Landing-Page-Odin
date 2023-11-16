@@ -4,41 +4,52 @@ body {
 header {
     background-color: #1F2937;
     color: #E5E7EB;
-    padding: 50px;
+    padding: 0px 40px 40px 40px;
+    
+    
 }
 /*start of links flex*/
 .nav {
     display: flex;   
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 18px;
-    display: flex;
-    justify-content: flex-start;
-    
 }
 
 .right-links {
     display: flex;
     gap: 20px; 
+    font-size: 18px;
 }
 /*end of header and start of welcom */
 
+
+/*!!!!left off here, cant get header to line up how i want it to and still working on getting image placeholder to line up!!!*/
 .hero {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    
+    padding: 50px;
 }
 
 .left {
     display: flex; 
     flex-direction: column;
     align-items: flex-start;   
-    flex: 1;
+    flex-wrap: wrap;
+    max-width: 50%;
+  
 }
+.image {
+    display: flex;
+    
+    min-width: 300px;
+    
+    
+}
+
+
 
 .welcome {
     color: #f9faf8;
@@ -46,32 +57,22 @@ header {
     font-weight: bolder;
 }
 
-
-
 .header-button{
     display: flex;
     max-width: 100px;
     background-color: #3882F6;
 }
 
-
-
 .header-subtext {
     color: #E5E7EB;
     font-size: 18px;
 }
 
-#header-img {
-
-}
-
 .placeholder {
     background-color: grey;
-    padding: 50px;
-    margin: 2%;
+    padding: 100px 50px;
+   
 }
-
-
 
 li {
     list-style-type: none;
