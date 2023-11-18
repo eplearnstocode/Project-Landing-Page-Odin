@@ -53,11 +53,13 @@ header {
     max-width: 45%;
   
 }
+/*LEFT OFF HERE dont have the img placeholder the right size or growing/shrinking. need to work on that!!!! and was working on info section*/
 .image {
     display: flex; 
     justify-content: center;
     align-items: center;
     max-height: 200px;
+    flex: 1;
 }
 
 .welcome {
@@ -90,6 +92,7 @@ header {
 .placeholder {
     background-color: grey;
     padding: 125px 225px;
+    
 }
 
 li {
@@ -98,5 +101,27 @@ li {
 
 /*end of header with welcom begin of "some random info"*/
 
+.info-div {
+    padding: 40px 60px 40px 60px;
+}
 
+.info-head {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
 
+.info-container {
+    display: flex;
+    
+}
+
+.item {
+    display: flex;
+    
+}
+
+.item-text {
+    color: #1F2937;
+}
