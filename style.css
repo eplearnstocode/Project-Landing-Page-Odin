@@ -54,11 +54,13 @@ header {
 }
 
 .right {
-    background-color: pink;
     display: flex;
-    flex: 3 1 30%;
-    padding: 125px 10px;
-    text-align: center;
+    flex-shrink: 4;
+    max-width: 60%;
+    min-height: auto;
+    border-radius: 5%;
+    box-shadow: 15px 15px 15px 0px rgba(7, 7, 7, 0.3);
+    
 }
 
 .welcome {
@@ -120,5 +122,10 @@ li {
 }
 
 .img {
-    border-color: #3882F6;
+    display: flex;
+    flex-shrink: 4;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px 0px #3882F6;
 }
