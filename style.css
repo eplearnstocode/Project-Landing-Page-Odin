@@ -127,7 +127,7 @@ li {
     max-width: 200px;
     max-height: 200px;
     border-radius: 5%;
-    box-shadow: 5px 5px 5px 0px #3882F6;
+    box-shadow: 5px 5px 5px 0px #1F2937;
 }
 
 /*end of info section beginning of testimonials*/
@@ -191,3 +191,11 @@ li {
 }
 
 /*end of call to action and beginning of footer*/
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 30px;
+
+}
