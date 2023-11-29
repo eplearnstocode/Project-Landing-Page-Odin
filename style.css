@@ -76,7 +76,7 @@ header {
     margin-bottom: 10px;
 }
 
-button {
+.header-button {
     background-color: #3882F6;
     color: #E5E7EB;
     font-size: 18px;
@@ -130,6 +130,8 @@ li {
     box-shadow: 5px 5px 5px 0px #3882F6;
 }
 
+/*end of info section beginning of testimonials*/
+
 .testimonial {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -153,3 +155,39 @@ li {
     display: flex;
     align-self: flex-end;
 }
+
+/*end of testimonial and beginning of call to action*/
+
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 25px;
+    margin: 50px 200px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.h4 {
+    font-size: 24px;
+}
+
+.p4 {
+    font-size: 18px;
+}
+
+.button2 {
+    font-size: 18px;
+    border-color: #F9FAF8;
+    border-style: solid;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 12px;
+    
+}
+
+/*end of call to action and beginning of footer*/
