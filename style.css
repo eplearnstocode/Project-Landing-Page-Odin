@@ -116,8 +116,10 @@ li {
     color: #1F2937;
     display: flex;
     flex-wrap: wrap;
-    max-width: 200px;
+    max-width: 125px;
     margin-top: 10px;
+    text-align: center;
+    padding: 0px 10px;
     
 }
 
