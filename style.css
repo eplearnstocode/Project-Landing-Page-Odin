@@ -8,17 +8,16 @@ body {
 }
 
 header {
-    background-color: #1F2937;
     color: #E5E7EB;
-    
-    
-    
+    background-size: cover;
+    width: 100%;
 }
 /*start of links flex*/
 .nav {
     display: flex;   
     justify-content: space-between;
-    
+    background-color: #1F2937;
+    padding: 5px 50px;
 }
 
 .logo {
@@ -41,28 +40,39 @@ header {
     display: flex;
     align-items: center; 
     gap: 60px;
-    
+    background-color: #1F2937;
+    background-size: cover;
+    padding: 15px 50px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    flex-shrink: 2;
     flex-wrap: wrap;
-    flex-basis: 40%;
+    flex: 1 2 40%;
+
 }
 
 .right {
     display: flex;
-    flex-shrink: 4;
+    
+    max-width: 35%;
+    max-height: auto;
+    border-radius: 5px;
+    box-shadow: 15px 15px 15px 0px rgba(7, 7, 7, 0.3);
+}
+/*
+.right {
+    max-width: 30%;
+    max-height: auto;
+    display: flex;
     max-width: 60%;
     min-height: auto;
     border-radius: 5%;
     box-shadow: 15px 15px 15px 0px rgba(7, 7, 7, 0.3);
     
 }
-
+*/
 .welcome {
     font-size: 38px;
     font-weight: 900;
@@ -86,7 +96,7 @@ header {
     border: none;
     text-decoration: none;
     border-radius: 12px;
-    
+    max-width: 200px;
 }
 
 li {
@@ -94,10 +104,6 @@ li {
 }
 
 /*end of header with welcom begin of "some random info"*/
-
-.info-div {
-    
-}
 
 .info-head {
     font-size: 36px;
@@ -109,7 +115,6 @@ li {
 .info-container {
     display: flex;
     justify-content: space-around;
-     
 }
 
 .item-text {
@@ -119,14 +124,12 @@ li {
     max-width: 125px;
     margin-top: 10px;
     text-align: center;
-    
-    
 }
 
 .img {
     display: flex;
     flex-shrink: 4;
-    max-width: 200px;
+    max-width: 100px;
     max-height: 200px;
     border-radius: 5%;
     box-shadow: 5px 5px 5px 0px #1F2937;
@@ -142,8 +145,7 @@ li {
     font-weight: lighter;
     display: flex;
     flex-direction: column;
-    
-
+    padding: 10px 50px;
 }
 
 .h3 {
@@ -164,12 +166,14 @@ li {
 .action {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 25px;
-    margin: 50px 200px;
+    border-radius: 5px;
     padding: 30px;
     display: flex;
-    justify-content: space-around;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+    margin: 10px 50px;
 }
 
 .h4 {
@@ -188,7 +192,11 @@ li {
     color: #E5E7EB;
     padding: 10px 30px;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
     
 }
 
